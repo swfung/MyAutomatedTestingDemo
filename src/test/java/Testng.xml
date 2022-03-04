@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+
+    <!--Local PC-->
+    <parameter name="device" value="00008020-001258681180402E" />
+    <parameter name="platform" value="IOS" />
+    <parameter name="useProxy" value="false" />
+    <parameter name="url" value="http://localhost:4723/wd/hub" />
+    <parameter name="accessKey" value="eyJhbGciOiJIUzI1NiJ9.eyJ4cC51IjoxOTQ4NCwieHAucCI6MTUxNTA3LCJ4cC5tIjoxNTkwMzgwNDA2MDgyLCJleHAiOjE5MzM3MjY2MTAsImlzcyI6ImNvbS5leHBlcml0ZXN0In0.NiN00pcLLXGLXgkV1Rty0m5hRRnLf9RQj4vSLdH6Bbs" />
+
+    <test thread-count="1" name="Test">
+        <classes>
+            <class name="test.TestRun" />
+        </classes>
+    </test>
+</suite>
