@@ -185,8 +185,8 @@ public class Screenshots {
 	}
 	
 	public static void main(String[] args) throws Exception {
-		boolean match = isImageMatch(new File("/Users/aiait/eclipse-workspace_as/AIA_Connect/output/screenshots/rememberMe1.png"),
-				new File("/Users/aiait/eclipse-workspace_as/AIA_Connect/output/screenshots/rememberMe2.png"));
+		boolean match = isImageMatch(new File("/Users/swfung/eclipse-workspace_as/MyAutomatedTestingDemo/output/screenshots/rememberMe1.png"),
+				new File("/Users/swfung/eclipse-workspace_as/MyAutomatedTestingDemo/output/screenshots/rememberMe2.png"));
 	
 		System.out.println(match);
 	}

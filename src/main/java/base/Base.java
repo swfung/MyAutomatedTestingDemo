@@ -131,7 +131,7 @@ public class Base {
 
 
 		if ("".equals(url)) {
-			url = "https://aia.experitest.com/wd/hub";
+			url = "https://example.experitest.com/wd/hub";
 		}
 		//setCapability
 		DesiredCapabilities dc = new DesiredCapabilities();

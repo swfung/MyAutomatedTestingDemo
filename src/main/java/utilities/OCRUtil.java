@@ -67,14 +67,14 @@ public class OCRUtil {
 
 	public static void main(String[] args) throws Exception {
 		Point p = getLocation("TCHI1.png",//"TChi"
-				//"/Users/aiait/Desktop/WechatIMG1.jpeg"
+				//"/Users/swfung/Desktop/WechatIMG1.jpeg"
 				ConstantFile.BASE_DIR +File.separator+"output"+File.separator+"screenshots"+File.separator+"Language Option.png"
 				);
 		System.out.println(p.x + "," + p.y);
 		
-	//	execShell("shell/getLocation.sh","python/getLocation.py","/Users/aiait/eclipse-workspace_as/AIA_Connect/picture/SChi.png","/Users/aiait/Desktop/WechatIMG1.jpeg");
+	//	execShell("shell/getLocation.sh","python/getLocation.py","/Users/swfung/eclipse-workspace_as/MyAutomatedTestingDemo/picture/SChi.png","/Users/swfung/Desktop/WechatIMG1.jpeg");
 	
-	//	execShell("/Users/aiait/Desktop/shellScript/startappium1.sh");
+	//	execShell("/Users/swfung/Desktop/shellScript/startappium1.sh");
 		
 	//	execShell("shell/test2.sh");
 	}

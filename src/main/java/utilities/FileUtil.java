@@ -42,6 +42,6 @@ public class FileUtil {
 		}
 	
 	public static void main(String[] args) throws Exception {
-		getResolution("/Users/aiait/eclipse-workspace_as/AIA_Connect/output/screenshots/Language Option.png");
+		getResolution("/Users/swfung/eclipse-workspace_as/MyAutomatedTestingDemo/output/screenshots/Language Option.png");
 	}
 }
